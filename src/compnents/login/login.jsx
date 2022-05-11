@@ -9,7 +9,7 @@ import { addlogin } from "./action"
 export const Login = ()=>{
     let dispatch = useDispatch()
  let loginstore = useSelector((store)=>store.login.login) 
-//  console.log(loginstore)
+ console.log(loginstore)
  let [state , setstate] = useState(false)
  console.log(state)
 // console.log(loginstore)
